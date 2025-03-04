@@ -11,6 +11,7 @@
 
 
 ## チェックボックス
+``` - [ ]  test```
 - [ ] test1
 - [x] test2
 
@@ -22,13 +23,21 @@
 **test**
 
 ##　引用
+``` > test ```
 >test test
 >>test2 
 
 ## コードブロック
+````
 ```python:test.py
-print("")
+print("Hello world!!")
 ```
+````
+
+```python:test.py
+print("Hello world!!")
+``` 
+
 
 ## リンクURL
 ```
